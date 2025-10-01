@@ -80,6 +80,15 @@
     font-size: small;
     background-color: #e6e6e6;
 }
+.selection:hover{
+    width: 45px;
+    height: 40px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-width: 0px;
+    font-size: small;
+    background-color: #d2d2d2;
+}
 .search-input{
     border-radius: 0%;
     width: 420px;
@@ -98,6 +107,16 @@
     border-bottom-right-radius: 5px;
 
 } 
+.search-icon:hover{
+    width: 40px;
+    height: 40px;
+    align-items: center; 
+    justify-self: center;
+    cursor: pointer;
+    background-color: #f89109;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
 .import-search-icon{
     margin: 5px;
     margin-top: 10px;
@@ -178,10 +197,35 @@
     height: 40px;
     width: 100%;
     background-color: #232f3e;
+    display: flex;
+}
+.div-all{
+    height:100%;
+    width: 70px;
+    padding-left: 10px;
+}
+.navbar-toolse-general{
+    padding-top: 10px;
+    display: flex;
+    padding-left: 10px;
 }
 .tool-nav-text{
-    font-size: 14px;
-    align-items: center;
+    font-size: 15px;
+    margin-top: 0px;
+    margin-left: 5px;
+    color: white;
+}
+.fresh{
+    height: 40px;
+    width: 70px;
+}
+.select{
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+.MX-player{
+    width: 95px;
 }
 .main-div{
     width: 100%;
@@ -189,10 +233,50 @@
     min-height: 200px;
     max-height: 1000px;
 }
+.todaydeals{
+    width: 120px;
+}
+.newReleases{
+    width: 120px;
+}
+#liveNow{
+    align-items: right;
+    float: right;
+    margin-left: 80px;
+}
 .addImages{
     background-image: url(main\ div\ images.jpg);
     background-size: cover;
     width: 100%;
     height: 500px;
-}
 
+}
+.addArea{
+    background-color: white;
+    width: 100%;
+    height: 20px;
+    margin-top: 300px;
+}
+.back-home{
+    width: 100%;
+    height: 50px;
+    margin-top: -1%;
+    background-color: #37475a;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+#back-top{
+     font-weight: 600;
+    font-size: 15px;
+    color: white;
+}
+th{
+    text-align: left;
+}
+.footer-with-data{
+    width: 100%;
+    height: 300px;
+    background-color: #232f3e;
+    padding-left: 60px;
+}
