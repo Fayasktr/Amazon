@@ -236,6 +236,7 @@
     height: auto;
     min-height: 200px;
     max-height: 1000px;
+    background: linear-gradient(to top, white, red);
 }
 .todaydeals{
     width: 120px;
@@ -248,18 +249,59 @@
     float: right;
     margin-left: 80px;
 }
-.addImages{
-    background-image: url(main\ div\ images.jpg);
-    background-size: cover;
-    width: 100%;
-    height: 500px;
 
+.content-area{
+    width: 100%;
+    height: 800px;
+    background-color: white;
 }
 .addArea{
     background-color: white;
     width: 100%;
     height: 20px;
     margin-top: 300px;
+}
+.content-area{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: #9d9a9a;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    gap: 30px;
+    height: 800px;
+    background: linear-gradient(to bottom, #f04301, 9d9a9a);
+}
+.content-all{
+    width: 280px;
+    height: 350px;
+    background-color: white;
+    border: black;
+    border-width: 1px;
+    padding: 10px;
+}
+.content-all:hover{
+    width: 280px;
+    height: 350px;
+    background-color: white;
+    border-width: 1px;
+    padding: 10px;
+    transform: scale(1.01);
+}
+.add-image{
+    width: 240px; 
+    height:200px;
+}
+.content-text{
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+.see-edit{
+    margin-top: 10px;
+    color: rgb(134, 134, 247);
+    font-size: small;
+    text-decoration: none;
 }
 .back-home{
     width: 100%;
@@ -269,6 +311,7 @@
     align-items: center;
     justify-content: center;
     display: flex;
+    transition: 0.60s;
 }
 .back-home:hover{
     width: 100%;
@@ -301,10 +344,15 @@ td{
     height: 300px;
     background-color: #232f3e;
     padding-bottom: 100px;
+    padding-top: 28px;
 }
 .image-amazone{
     width: 80px;
     height: 40px;
     margin-left: 450px;
-    margin-top: 7px;
+    margin-top: -2px;
+}
+.language-bottom{
+    margin-left: 30px;
+    background: none;
 }
