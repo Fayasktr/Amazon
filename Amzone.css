@@ -10,6 +10,7 @@
     background-color:#131921;
     margin: 0px;
     position: sticky;
+    z-index: 5;
     display: flex;
 }
 /*amazone icon*/
